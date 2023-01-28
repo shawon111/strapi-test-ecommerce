@@ -4,7 +4,8 @@
   "info": {
     "singularName": "product",
     "pluralName": "products",
-    "displayName": "product"
+    "displayName": "product",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -13,6 +14,14 @@
   "attributes": {
     "name": {
       "type": "string",
+      "required": true
+    },
+    "Price": {
+      "type": "float",
+      "required": true
+    },
+    "Description": {
+      "type": "richtext",
       "required": true
     }
   }
